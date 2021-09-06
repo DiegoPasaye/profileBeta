@@ -1,0 +1,59 @@
+html{
+    height: auto;
+    min-height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
+    background: linear-gradient(to right, #22577A, #38A3A5);
+    z-index: 0;
+}
+.menubar{
+    height: 30px;
+    width: 100%;
+    border: 3px solid black;
+    background-color: black;
+    background: black;
+    z-index: 1;
+}
+.menuBarItems{
+    color: aliceblue;
+    text-align: center;
+}
+#circuloImagen{
+    position: relative;
+    margin: auto;
+    top: 150px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: darkgrey;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#imagen{
+    position: relative;
+    width: 210px;
+    height: 250px;
+    bottom: 25px;
+}
+#name{
+    position: relative;
+    top: 150px;
+    bottom: 300px;
+    text-align: center;
+    font-family: monospace;
+}
+.separacion{
+    position: relative;
+    top: 150px;
+    width: 20%;
+    height: 5px;
+    background-color: red;
+    margin: auto;
+}
+.informacion{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
