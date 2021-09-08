@@ -11,14 +11,21 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
 .menubar{
     height: 30px;
     width: 100%;
-    border: 3px solid black;
-    background-color: black;
-    background: black;
+    background-color: #80ED99;
+    background: #2C394B;
     z-index: 1;
+    border-radius: 2%;
 }
-.menuBarItems{
+#inicio{
+    position: relative;
+    left: 0px;
     color: aliceblue;
-    text-align: center;
+    text-decoration: none;
+}
+#contactame{
+    position: relative;
+    left: 90%;
+    color: aliceblue;
 }
 #circuloImagen{
     position: relative;
@@ -26,7 +33,6 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
     top: 150px;
     width: 200px;
     height: 200px;
-    border: 2px solid red;
     background-color: darkgrey;
     border-radius: 50%;
     overflow: hidden;
@@ -49,11 +55,23 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
     top: 150px;
     width: 20%;
     height: 5px;
-    background-color: red;
+    background-color: #39A6A3;
     margin: auto;
 }
 .informacion{
     position: relative;
     top: 150px;
     text-align: center;
+}
+#stats{
+    position: relative;
+    top: 200px;
+    display: inline-block;
+    left: 15%;
+}
+#python{
+    color: #2C394B;
+    position: relative;
+    top: 250px;
+    left: 5%;
 }
