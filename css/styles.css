@@ -1,12 +1,14 @@
 html{
     height: auto;
-    min-height: 100%;
+    min-height: 99%;
     padding: 0px;
     margin: 0px;
+    max-width: 100%;
 }
 body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
     background: linear-gradient(to right, #22577A, #38A3A5);
     z-index: 0;
+    background-repeat: repeat;
 }
 .menubar{
     height: 30px;
@@ -23,8 +25,10 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
     text-decoration: none;
 }
 #contactame{
-    position: relative;
-    left: 80%;
+    position: absolute;
+    left: 83%;
+    max-width: 90%;
+    max-inline-size: 90%;
     color: aliceblue;
 }
 #circuloImagen{
