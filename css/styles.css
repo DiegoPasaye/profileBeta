@@ -24,7 +24,7 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
 }
 #contactame{
     position: relative;
-    left: 90%;
+    left: 80%;
     color: aliceblue;
 }
 #circuloImagen{
@@ -62,10 +62,4 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
     position: relative;
     top: 150px;
     text-align: center;
-}
-#stats{
-    position: relative;
-    top: 200px;
-    display: inline-block;
-    left: 15%;
 }
