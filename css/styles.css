@@ -1,6 +1,6 @@
 html{
     height: auto;
-    min-height: 99%;
+    max-height: 100%;
     padding: 0px;
     margin: 0px;
     max-width: 100%;
@@ -15,7 +15,6 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
     width: 100%;
     background-color: #80ED99;
     background: #2C394B;
-    z-index: 1;
     border-radius: 2%;
 }
 #inicio{
@@ -25,11 +24,21 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
     text-decoration: none;
 }
 #contactame{
-    position: absolute;
-    left: 83%;
-    max-width: 90%;
-    max-inline-size: 90%;
+    position: relative;
+    max-width: 92%;
+    margin-left: 92%;
     color: aliceblue;
+}
+#textoContactame{
+    position: relative;
+    color: aliceblue;
+    bottom: 12px;
+}
+#textoInicio{
+    position: relative;
+    color: whitesmoke;
+    margin-left: 10px;
+    top: 5px;
 }
 #circuloImagen{
     position: relative;
