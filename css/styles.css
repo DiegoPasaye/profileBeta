@@ -12,6 +12,7 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
 }
 .menubar{
     height: 30px;
+    max-width: 1350px;
     width: 100%;
     background-color: #80ED99;
     background: #2C394B;
@@ -25,8 +26,8 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
 }
 #contactame{
     position: relative;
-    max-width: 92%;
-    margin-left: 92%;
+    max-width: 1340px;
+    text-align: right;
     color: aliceblue;
 }
 #textoContactame{
