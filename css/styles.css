@@ -77,3 +77,11 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
     top: 150px;
     text-align: center;
 }
+.stats{
+    position: relative;
+    top: 255px;
+    left: 15%;
+}
+#python{
+    position: relative;
+}
