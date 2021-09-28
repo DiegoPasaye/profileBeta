@@ -80,7 +80,7 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
 .stats{
     position: relative;
     top: 255px;
-    left: 30px;
+    margin-left: 14%;
 }
 #python{
     position: relative;
