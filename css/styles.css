@@ -85,3 +85,36 @@ body{ /*Paleta de colores #22577A, #38A3A5, #57CC99, #80ED99*/
 #python{
     position: relative;
 }
+
+
+
+#formulario{
+    margin-top: 20%;
+    border-radius: 10px;
+    background-color: #38A3A5;
+    text-align: center;
+}
+#divEmail{
+    position: relative;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+}
+#divNumero{
+    position: relative;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+}
+#divComentarios{
+    position: relative;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+}
+#botonFormulario{
+    position: relative;
+    text-align: start;
+    margin-right: 65%;
+    margin-top: 2%;
+}
